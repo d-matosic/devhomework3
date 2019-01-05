@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/Graphik-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./fonts/Graphik-Semibold.ttf") format("truetype");
+  }
+  
+  body {
+    font-family: "Graphik";
+  }
+
+
+
+
+.container{width:700px;
+margin:auto; }
+.header{background-image: url("./header-background.png"); 
+background-position:60px  100px; 
+background-size: 600px;
+background-repeat: no-repeat;
+background-color:rgb(210, 242, 250);
+padding-bottom:248px;
+}
+
+
+.nav{display:flex;
+justify-content: space-between;;
+align-items:flex-start;
+margin:0 25px;}
+
+.logo{max-height:40px;}
+
+.second{text-align:center;}
+
+.naslov{text-align:center;       
+        font-size:35px;
+}
+.paragraf{text-align: center;}
+
+
+.wrapper{
+    margin-top:20px;
+    margin-left: 10px;;
+}
+.flex{display:flex;
+
+margin-left:220px;}
+
+.flex-container3{ display:flex;
+    justify-content: flex-start; 
+width:350px;}
+
+    
+.third{ background-image: url(./image-charity.png); 
+background-position: right; 
+background-size:330px; 
+padding: 100px; 
+background-repeat: no-repeat;
+width:570px;
+}
+
+
+.link{text-decoration:none;}
+
+
+.flex-container4{display:flex;
+justify-content:center;
+margin:10px 0px;}
+
+.fourth{background-image: url(./contacts.png);
+background-position:center;
+background-size:750px;
+background-repeat:no-repeat;
+padding:20px;
+width:700px;
+text-align:center;}
+
+.buttonone {
+background-color:rgb(16, 119, 119);
+color:white;
+border:none;
+cursor:pointer;
+padding:27px 18px;
+margin:0px;
+font-weight:600;
+ }
+
+
+
+.button {
+    background-color: rgba(15, 179, 165, 0.815)  ;
+    color:white ; 
+    border:none; 
+
+    margin: 10px 50px 70px 50px;
+    padding: 10px 25px;
+
+    cursor: pointer; 
+    width: 180px;   
+    font-weight:600; }
+
+.buttontwo{background-color: rgba(15, 179, 165, 0.815)  ;
+    color:white ; 
+    border:none; 
+
+    margin: 10px 50px 0px 50px;
+    padding: 10px 25px;
+
+    cursor: pointer; 
+    width: 180px;
+    font-weight:600;}
+
+
+
+.flex-container5{display:flex;
+justify-content:flex-end;
+text-align:right;}
+
+
+.fifth{background-image: url(./image-handshake.png);
+background-position:left;
+background-size:350px;
+background-repeat:no-repeat;
+padding:100px;
+width:580px;}
+
+.flex-container6{display:flex;
+justify-content:center;
+padding-top:5px;
+text-align:center;
+}
+
+.sixth{background-color: rgb(210, 242, 250); 
+padding:180 px; }
+
+.input-two{background: transparent;
+border: none;
+border-bottom: 1px solid rgb(18, 160, 207); 
+text-align:center; 
+width:128px;
+font-size:20px;}  
+
+.paragraphlast{font-size:20px;}
+
+.flex-container7{display:flex;
+justify-content:space-between; }
+
+
+
+.seventh{width:700px;
+ }
+
+
